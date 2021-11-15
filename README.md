@@ -32,7 +32,7 @@ Bu repo [blog yazısındaki](https://blog.viadee.de/raus-aus-dem-yaml-chaos-para
 ```
 
 * ./base: Orijinal Kubernetes YAMl dosyaları için bir dizin olarak.
-* ./overlays/env: Bindirmelerin ilgili değişikliklerle toplandığı her ortam için ayrı alt klasör.
+* ./overlays/<ortam_adı>: Bindirmelerin ilgili değişikliklerle toplandığı her ortam için ayrı alt klasör.
 
 ```yaml
 # File: ./base/kustomization.yaml
