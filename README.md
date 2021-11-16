@@ -45,17 +45,6 @@ resources:
 
 ```
 
-```yaml
-# File: ./overlays/prod/kustomization.yaml
-
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
- 
-bases:
-- ../../base
-
-```
-
 kustomizaztion.yaml dosyasında hangi dosyaların kullanılacağını söylüyoruz. 
 
 ```yaml
